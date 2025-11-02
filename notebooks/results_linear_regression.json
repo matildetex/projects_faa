@@ -1,0 +1,9 @@
+{
+    "Model": "Linear Regression",
+    "MSE": 0.6019,
+    "R2": -2.1569,
+    "Accuracy": 0.2622,
+    "Precision": 1.0,
+    "Recall": 0.0078,
+    "F1": 0.0155
+}
