@@ -1,0 +1,7 @@
+{
+    "Model": "Logistic Regression (liblinear)",
+    "Accuracy": 0.9934,
+    "Precision": 0.9989,
+    "Recall": 0.9922,
+    "F1": 0.9955
+}
