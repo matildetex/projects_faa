@@ -1,0 +1,15 @@
+
+\begin{table}[h]
+\centering
+\caption{5-Fold Cross-Validation and Test Set Performance Comparison}
+\label{tab:cv_results}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Model} & \textbf{CV Mean} & \textbf{CV Std} & \textbf{Test Acc} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+\hline
+Logistic Regression & 0.9729 & 0.0058 & 0.9826 & 0.9989 & 0.9777 & 0.9882 \\
+Neural Network & 0.7683 & 0.0296 & 0.7436 & 0.7436 & 1.0000 & 0.8529 \\
+SVM (Polynomial) & 0.9770 & 0.0053 & 0.9842 & 0.9989 & 0.9799 & 0.9893 \\
+\hline
+\end{tabular}
+\end{table}

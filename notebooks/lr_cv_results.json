@@ -1,0 +1,39 @@
+{
+    "model": "Logistic Regression",
+    "hyperparameters": {
+        "solver": "liblinear",
+        "C": 1.0,
+        "max_iter": 5000
+    },
+    "cross_validation": {
+        "mean_accuracy": 0.9729347329986308,
+        "std_dev": 0.005810125502918219,
+        "min": 0.9627263045793397,
+        "max": 0.9808102345415778,
+        "fold_scores": [
+            0.9733759318423855,
+            0.9627263045793397,
+            0.9808102345415778,
+            0.9733475479744137,
+            0.9744136460554371
+        ]
+    },
+    "validation_set": {
+        "accuracy": 0.962605548854041,
+        "precision": 0.978688524590164,
+        "recall": 0.9707317073170731,
+        "f1_score": 0.9746938775510204
+    },
+    "test_set": {
+        "accuracy": 0.9825726141078838,
+        "precision": 0.9988597491448119,
+        "recall": 0.9776785714285714,
+        "f1_score": 0.988155668358714
+    },
+    "overfitting": {
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.9825726141078838,
+        "gap": 0.01742738589211623,
+        "status": "\u26a0 Good generalization (gap < 3%)"
+    }
+}
