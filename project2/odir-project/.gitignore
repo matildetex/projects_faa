@@ -1,34 +1,3 @@
-# Dataset (muito grande para Git)
-data/
-*.csv
-*.jpg
-*.jpeg
-*.png
-
-# Modelos treinados
-models/*.pth
-models/*.h5
-*.pth
-*.h5
-
-# Ambiente virtual
-venv/
-env/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# Kaggle
-.kaggle/
-kaggle.json
 
 # IDE
 .vscode/
@@ -46,6 +15,3 @@ desktop.ini
 logs/
 temp/
 tmp/
-
-# Excluir apenas os índices do split (manter no Git)
-!splits/split_indices.json
