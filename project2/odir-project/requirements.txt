@@ -1,0 +1,18 @@
+# Core
+kagglehub
+pandas
+numpy
+pillow
+
+# Deep Learning
+torch
+torchvision
+
+# Machine Learning & Utils
+scikit-learn
+matplotlib
+seaborn
+
+# Jupyter (opcional, para experimentação)
+jupyter
+ipykernel
