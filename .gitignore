@@ -1,3 +1,32 @@
 *.npz
 project1/notebooks/.ipynb_checkpoints/
 .ipynb_checkpoints/
+
+# Ambiente virtual
+venv/
+env/
+
+# Dados (muito grandes para Git)
+data/
+*.csv
+*.jpg
+*.png
+
+# Modelos treinados
+models/*.pth
+models/*.h5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
