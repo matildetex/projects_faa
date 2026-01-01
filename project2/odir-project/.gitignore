@@ -15,3 +15,7 @@ desktop.ini
 logs/
 temp/
 tmp/
+
+# modelos treinados
+*.pth
+models/
